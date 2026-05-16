@@ -4,7 +4,7 @@ import tailwindcss from "@tailwindcss/vite";
 import { VitePWA } from "vite-plugin-pwa";
 
 export default defineConfig({
-  base: "/music/",
+  base: "/Music/",
 
   plugins: [
     react(),
@@ -16,12 +16,12 @@ export default defineConfig({
       manifest: {
         name: "Music",
         short_name: "Music",
-        description: "Offline music player",
+        description: "Offline Music player",
         theme_color: "#09090b",
         background_color: "#09090b",
         display: "standalone",
-        scope: "/music/",
-        start_url: "/music/",
+        scope: "/Music/",
+        start_url: "/Music/",
         icons: [
           {
             src: "/appLogo.png",
